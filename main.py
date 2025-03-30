@@ -2,7 +2,7 @@ from src.processing import DatasetProcessor
 from src.train_eval import ModelTrainer
 
 
-CSV_FILE = "data/churn_data.csv"
+CSV_FILE = "dataset/churn_data.csv"
 MODEL_TYPE = "XGBoost"
 
 if __name__ == "__main__":
